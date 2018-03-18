@@ -1,4 +1,24 @@
 .about {
   background-color: $color-grey-light-1;
   height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  &__heading {
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  &__img {
+    width: 20vw;
+    margin: 0 auto;
+    border-radius: 3px;
+  }
+  
+  &__paragraph {
+    text-align: center;
+    padding: 5rem 30vw;
+    font-size: 1.6rem;
+  }
 }

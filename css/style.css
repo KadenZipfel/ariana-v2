@@ -53,7 +53,21 @@ body {
 
 .about {
   background-color: #f9f9f9;
-  height: 90vh; }
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .about__heading {
+    padding: 3rem;
+    text-align: center; }
+  .about__img {
+    width: 20vw;
+    margin: 0 auto;
+    border-radius: 3px; }
+  .about__paragraph {
+    text-align: center;
+    padding: 5rem 30vw;
+    font-size: 1.6rem; }
 
 .contact {
   background-color: #5e5e5e;
