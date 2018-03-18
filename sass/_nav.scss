@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 0 3rem;
+  background-color: $color-grey-dark-2;
+  
+  &__brand {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.side-nav {
+  display: flex;
+  
+  &__item {
+    list-style: none;
+    padding: 1rem 0;
+  }
+  
+  &__link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 1rem;
+    transition: all .2s;
+    
+    &:hover {
+      background-color: $color-grey-light-1;
+      color: $color-grey-dark-2;
+    }
+  }
+}

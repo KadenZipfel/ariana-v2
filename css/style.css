@@ -42,3 +42,28 @@ body {
 .contact {
   background-color: #5e5e5e;
   height: 90vh; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  background-color: #4c4c4c; }
+  .nav__brand {
+    text-decoration: none;
+    color: white; }
+
+.side-nav {
+  display: flex; }
+  .side-nav__item {
+    list-style: none;
+    padding: 1rem 0; }
+  .side-nav__link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 1rem;
+    transition: all .2s; }
+    .side-nav__link:hover {
+      background-color: #f9f9f9;
+      color: #4c4c4c; }
