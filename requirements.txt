@@ -1,9 +1,7 @@
 * LANDING PAGE
 
-* Add dynamic fullscreen photo display
-* Add h1
-* Add short p
-* Create and style enter button - possibly change name
+* Navigation bar
+* About page underneath
 
 * ABOUT PAGE
 
