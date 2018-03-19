@@ -54,9 +54,27 @@
       </section>
       
       <section class="contact">
-        <h1 class="heading-2">
+        <h1 class="contact__heading heading-2">
           Contact
         </h1>
+        <p class="contact__paragraph">
+          For booking and other inquiries, shoot me an email!
+        </p>
+        <form action="#" class="contact-form">
+          <div class="contact-form__group">
+            <input id="name" type="text" class="contact-form__input" placeholder="Name">
+            <label for="name" class="contact-form__label">Name</label>
+          </div>
+          <div class="contact-form__group">
+            <input id="email" type="email" class="contact-form__input" placeholder="Email">
+            <label for="email" class="contact-form__label">Email</label>
+          </div>
+          <div class="contact-form__group">
+            <textarea name="message" id="message" class="contact-form__textarea" placeholder="Type your message here..."></textarea>
+            <label for="message" class="contact-form__label">Message</label>
+          </div>
+          <button class="contact__btn btn">Submit</button>
+        </form>
       </section>
       
     </div>

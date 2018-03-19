@@ -1,4 +1,54 @@
 .contact {
-  background-color: $color-grey-dark-1;
   height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  &__heading {
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  &__paragraph {
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  
+  &__group {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+  }
+  
+  &__input {
+    border: none;
+    border-bottom: 1px solid rgba($color-grey-dark-1, 0.3);
+    
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  &__label {
+    
+  }
+  
+  &__textarea {
+    border: none;
+    border-bottom: 1px solid rgba($color-grey-dark-1, 0.3);
+    
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  &__btn {
+    
+  }
 }

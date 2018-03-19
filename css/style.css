@@ -70,8 +70,35 @@ body {
     font-size: 1.6rem; }
 
 .contact {
-  background-color: #5e5e5e;
-  height: 90vh; }
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .contact__heading {
+    padding: 3rem;
+    text-align: center; }
+  .contact__paragraph {
+    margin-bottom: 3rem;
+    font-size: 1.4rem; }
+
+.contact-form {
+  display: flex;
+  flex-direction: column; }
+  .contact-form__group {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem; }
+  .contact-form__input {
+    border: none;
+    border-bottom: 1px solid rgba(94, 94, 94, 0.3); }
+    .contact-form__input:focus {
+      outline: none; }
+  .contact-form__textarea {
+    border: none;
+    border-bottom: 1px solid rgba(94, 94, 94, 0.3); }
+    .contact-form__textarea:focus {
+      outline: none; }
 
 .nav {
   display: flex;
