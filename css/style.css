@@ -18,6 +18,11 @@ body {
   display: flex;
   flex-direction: column; }
 
+.well {
+  background-color: #f2f2f2;
+  padding: 5rem;
+  border-radius: 1rem; }
+
 .hero {
   position: relative;
   min-height: 100vh; }
@@ -51,13 +56,31 @@ body {
   padding: 1rem;
   font-size: 1.5rem;
   border-radius: 3px;
-  background-color: #f9f9f9;
+  background-color: #f2f2f2;
   color: #4c4c4c; }
   .btn-main:focus {
     outline: none; }
 
+.btn {
+  margin-top: 2rem;
+  border: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #4c4c4c;
+  color: #f2f2f2;
+  background-color: #5e5e5e;
+  transition: all .2s; }
+  .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2rem 3rem rgba(94, 94, 94, 0.2); }
+  .btn:active {
+    transform: translateY(1px);
+    outline: none; }
+  .btn:focus {
+    outline: none; }
+
 .about {
-  background-color: #f9f9f9;
+  background-color: #f2f2f2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -93,15 +116,19 @@ body {
   .contact-form__group {
     display: flex;
     flex-direction: column;
-    padding: .5rem; }
+    padding: 1rem 0; }
   .contact-form__input {
     border: none;
-    border-bottom: 1px solid rgba(94, 94, 94, 0.3); }
+    border-bottom: 1px solid rgba(94, 94, 94, 0.3);
+    background-color: inherit; }
     .contact-form__input:focus {
       outline: none; }
+  .contact-form__label {
+    opacity: 0; }
   .contact-form__textarea {
     border: none;
-    border-bottom: 1px solid rgba(94, 94, 94, 0.3); }
+    border-bottom: 1px solid rgba(94, 94, 94, 0.3);
+    background-color: inherit; }
     .contact-form__textarea:focus {
       outline: none; }
 
@@ -116,7 +143,7 @@ body {
   background-color: #4c4c4c; }
   .nav__brand {
     text-decoration: none;
-    color: #f9f9f9; }
+    color: #f2f2f2; }
 
 .side-nav {
   display: flex; }
@@ -126,9 +153,9 @@ body {
   .side-nav__link {
     text-decoration: none;
     font-size: 1.5rem;
-    color: #f9f9f9;
+    color: #f2f2f2;
     padding: 1rem 1rem;
     transition: all .2s; }
     .side-nav__link:hover {
-      background-color: #f9f9f9;
+      background-color: #f2f2f2;
       color: #4c4c4c; }

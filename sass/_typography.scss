@@ -26,3 +26,26 @@
     outline: none;
   }
 }
+
+.btn {
+  margin-top: 2rem;
+  border: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid $color-grey-dark-2;
+  color: $color-grey-light-1;
+  background-color: $color-grey-dark-1;
+  transition: all .2s;
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2rem 3rem rgba($color-grey-dark-1, 0.2);
+  }
+  &:active {
+    transform: translateY(1px);
+    outline: none;
+  }
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,5 +1,5 @@
 // Color variables
-$color-grey-light-1: #f9f9f9;
+$color-grey-light-1: #f2f2f2;
 $color-grey-light-2: #aaa;
 
 $color-grey-dark-1: #5e5e5e;
@@ -30,4 +30,10 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+}
+
+.well {
+  background-color: $color-grey-light-1;
+  padding: 5rem;
+  border-radius: 1rem;
 }
