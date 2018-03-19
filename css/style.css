@@ -22,7 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 90vh;
+  height: 100vh;
   background-image: url("../img/back-img.jpg");
   background-size: cover;
   background-position: center; }
@@ -53,7 +53,7 @@ body {
 
 .about {
   background-color: #f9f9f9;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -70,7 +70,7 @@ body {
     font-size: 1.6rem; }
 
 .contact {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
