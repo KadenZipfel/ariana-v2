@@ -1,0 +1,32 @@
+* LANDING PAGE
+
+* Add dynamic fullscreen photo display
+* Add h1
+* Add short p
+* Create and style enter button - possibly change name
+
+* ABOUT PAGE
+
+* Change h1 
+* Add about info
+* Possibly make photo a circle
+* Style button
+
+* PORTFOLIO PAGE
+
+* Have separate sections for portraits, family, couples, etc.
+* Add image thumbnails
+* Add hover effect to images
+* Have image display feature
+* Add and style contact button
+
+* CONTACT PAGE
+
+* Style form
+* Possibly add in booking section
+
+* GENERAL 
+
+* Add favicon
+* Change font
+* Come up with branding/proper color scheme
