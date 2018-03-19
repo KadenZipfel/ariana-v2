@@ -28,6 +28,7 @@
 }
 
 .btn {
+  width: 15rem;
   margin-top: 2rem;
   border: none;
   padding: 1rem;
@@ -35,6 +36,7 @@
   border-bottom: 1px solid $color-grey-dark-2;
   color: $color-grey-light-1;
   background-color: $color-grey-dark-1;
+  text-align: center;
   transition: all .2s;
   
   &:hover {
