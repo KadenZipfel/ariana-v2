@@ -19,13 +19,18 @@ body {
   flex-direction: column; }
 
 .hero {
-  display: flex;
-  flex-direction: column;
   position: relative;
-  height: 100vh;
-  background-image: url("../img/back-img.jpg");
-  background-size: cover;
-  background-position: center; }
+  min-height: 100vh; }
+  .hero__img {
+    background-image: url("../img/back-img.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; }
   .hero__btn {
     position: absolute;
     top: 75%;
@@ -53,7 +58,7 @@ body {
 
 .about {
   background-color: #f9f9f9;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -108,10 +113,10 @@ body {
   z-index: 10;
   width: 100%;
   padding: 0 3rem;
-  background-color: #f9f9f9; }
+  background-color: #4c4c4c; }
   .nav__brand {
     text-decoration: none;
-    color: #4c4c4c; }
+    color: #f9f9f9; }
 
 .side-nav {
   display: flex; }
@@ -121,9 +126,9 @@ body {
   .side-nav__link {
     text-decoration: none;
     font-size: 1.5rem;
-    color: #4c4c4c;
+    color: #f9f9f9;
     padding: 1rem 1rem;
     transition: all .2s; }
     .side-nav__link:hover {
-      background-color: #4c4c4c;
-      color: #f9f9f9; }
+      background-color: #f9f9f9;
+      color: #4c4c4c; }
