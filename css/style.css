@@ -104,11 +104,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
   padding: 0 3rem;
-  background-color: #4c4c4c; }
+  background-color: #f9f9f9; }
   .nav__brand {
     text-decoration: none;
-    color: white; }
+    color: #4c4c4c; }
 
 .side-nav {
   display: flex; }
@@ -118,9 +121,9 @@ body {
   .side-nav__link {
     text-decoration: none;
     font-size: 1.5rem;
-    color: white;
+    color: #4c4c4c;
     padding: 1rem 1rem;
     transition: all .2s; }
     .side-nav__link:hover {
-      background-color: #f9f9f9;
-      color: #4c4c4c; }
+      background-color: #4c4c4c;
+      color: #f9f9f9; }
