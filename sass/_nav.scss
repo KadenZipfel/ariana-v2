@@ -6,12 +6,18 @@
   z-index: 10;
   width: 100%;
   
-  padding: 0 3rem;
-  background-color: $color-grey-dark-2;
+  padding: 0 5rem;
+  background-color: rgba($color-grey-dark-2, 0.2);
+  transition: all .5s;
   
   &__brand {
     text-decoration: none;
-    color: $color-grey-light-1;
+    color: white;
+    text-shadow: 0rem .1rem .3rem rgba(0, 0, 0, 0.8);
+  }
+  
+  &:hover {
+    background-color: rgba($color-grey-dark-2, 0.8);
   }
 }
 
@@ -26,12 +32,14 @@
   &__link {
     text-decoration: none;
     font-size: 1.5rem;
-    color: $color-grey-light-1;
+    color: white;
+    text-shadow: 0rem .1rem .3rem rgba(0, 0, 0, 0.8);
     padding: 1rem 1rem;
     transition: all .2s;
     
     &:hover {
-      background-color: $color-grey-light-1;
+      background-color: rgba($color-grey-light-1, 0.8);
+      text-shadow: none;
       color: $color-grey-dark-2;
     }
   }

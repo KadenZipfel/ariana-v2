@@ -153,11 +153,15 @@ body {
   position: fixed;
   z-index: 10;
   width: 100%;
-  padding: 0 3rem;
-  background-color: #4c4c4c; }
+  padding: 0 5rem;
+  background-color: rgba(76, 76, 76, 0.2);
+  transition: all .5s; }
   .nav__brand {
     text-decoration: none;
-    color: #f2f2f2; }
+    color: white;
+    text-shadow: 0rem 0.1rem 0.3rem rgba(0, 0, 0, 0.8); }
+  .nav:hover {
+    background-color: rgba(76, 76, 76, 0.8); }
 
 .side-nav {
   display: flex; }
@@ -167,11 +171,13 @@ body {
   .side-nav__link {
     text-decoration: none;
     font-size: 1.5rem;
-    color: #f2f2f2;
+    color: white;
+    text-shadow: 0rem 0.1rem 0.3rem rgba(0, 0, 0, 0.8);
     padding: 1rem 1rem;
     transition: all .2s; }
     .side-nav__link:hover {
-      background-color: #f2f2f2;
+      background-color: rgba(242, 242, 242, 0.8);
+      text-shadow: none;
       color: #4c4c4c; }
 
 .portfolio {
