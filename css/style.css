@@ -191,7 +191,8 @@ body {
     min-width: 13rem;
     text-align: center;
     z-index: 1;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(76, 76, 76, 0.2); }
     .side-nav__dropdown-content a {
       display: block;
       float: none;
