@@ -173,7 +173,7 @@ body {
     font-size: 1.5rem;
     color: white;
     text-shadow: 0rem 0.1rem 0.3rem rgba(0, 0, 0, 0.8);
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
     transition: all .2s; }
     .side-nav__link:hover {
       background-color: rgba(242, 242, 242, 0.8);
@@ -188,7 +188,7 @@ body {
     margin-top: 1rem;
     position: absolute;
     background-color: #ededed;
-    max-width: 11rem;
+    min-width: 13rem;
     text-align: center;
     z-index: 1;
     font-size: 1.5rem; }
