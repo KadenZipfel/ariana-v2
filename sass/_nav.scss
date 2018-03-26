@@ -87,3 +87,41 @@
     }
   }
 }
+
+.index-nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  
+  &-top {
+    list-style: none;
+    padding: 1rem;
+    
+    &__brand {
+      color: white;
+      text-decoration: none;
+      font-size: 3rem;
+      cursor: pointer;
+      font-family: inherit;
+    }
+  }
+  
+  &-bottom {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+    &__item {
+      
+    }
+    
+    &__link {
+      text-decoration: none;
+      padding: 0 2rem;
+      color: white;
+      font-size: 2rem;
+    }
+  }
+}

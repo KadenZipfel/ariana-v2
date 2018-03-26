@@ -11,7 +11,34 @@
   <body>
     <div class="container">
       
-      <nav class="nav">
+      <nav id="index-nav" class="index-nav">
+        <ul class="index-nav-top">
+          <a href="#" class="index-nav-top__brand">Ariana Roach</a>
+        </ul>
+        <ul class="index-nav-bottom">
+          <li class="index-nav-bottom__item">
+            <a href="#about" class="index-nav-bottom__link">About</a>
+          </li>
+          
+          <li class="index-nav-bottom__item">
+            <a href="pages/portrait.html" class="index-nav-bottom__link">Portrait</a>
+          </li>
+          
+          <li class="index-nav-bottom__item">
+            <a href="pages/landscape.html" class="index-nav-bottom__link">Landscape</a>
+          </li>
+          
+          <li class="index-nav-bottom__item">
+            <a href="pages/family.html" class="index-nav-bottom__link">Family</a>
+          </li>
+          
+          <li class="index-nav-bottom__item">
+            <a href="pages/contact.html" class="index-nav-bottom__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      
+      <nav class="nav" id="scroll-nav">
         <a href="index.html" class="nav__brand heading-3">Ariana Roach</a>
         <ul class="side-nav">
           <li class="side-nav__item">
@@ -60,5 +87,13 @@
     </section>
       
     </div>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <script src="app.js">
+    </script>
   </body>
 </html>
